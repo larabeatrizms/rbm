@@ -36,6 +36,4 @@ recomendacao = rbm.run_hidden(camada_escondida)
 for i in range(len(leonardo[0])):
     if leonardo[0, i] == 0 and recomendacao[0, i] == 1:
         print(filmes[i])
-        
-# No exemplo utilizando filtragem colaborativa o filme recomendado também
-# foi o Star Wars, conforme a recomendação utilizando RBM
+     
