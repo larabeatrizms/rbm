@@ -8,8 +8,8 @@ import numpy as np
 # a serem capturadas
 rbm = RBM(num_visible = 6, num_hidden = 3)
 
-# Criação da base de dados conforme o slide com as notas, com exceção do usuário
-# Leonardo que será o alvo das recomendações. Lembrando que aqui colocamos
+# Criação da base de dados 
+# Leonardo que será o alvo das recomendações
 # 1 se o usuário assitiu e 0 caso tenha outra resposta
 base = np.array([[0,1,1,1,0,1],
                  [1,1,0,1,1,1],
