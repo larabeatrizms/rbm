@@ -18,14 +18,14 @@ base = np.array([[0,1,1,1,0,1],
                  [1,1,0,1,0,1],
                  [1,1,0,1,1,1]])
 
-# Cadastro dos filmes conforme o slide
+# Cadastro dos filmes
 filmes = ["Freddy x Jason", "O Ultimato Bourne", "Star Trek", 
           "Exterminador do Futuro", "Norbit", "Star Wars"]
 
 # Treinamento da RBM
 rbm.train(base, max_epochs = 5000) 
 
-# Criação do registro que corresponde aos filmes do Leonardo, conforme o slide
+# Criação do registro que corresponde aos filmes do Leonardo
 leonardo = np.array([[0,1,0,1,0,0]]) 
 
 # Variável que recebe quais dos três neurônios da camada oculta foram ativados
